@@ -23,7 +23,7 @@ os.system(f"CUDA_VISIBLE_DEVICES=0 python train_derived.py \
 --world-size 1 \
 --rank {args.rank} \
 --dataset celeba \
---data_path ./data/monet_jpg \
+--data_path ../kaggle/input/gan-getting-started/monet_jpg/ \
 --bottom_width 8 \
 --img_size 256 \
 --max_iter 500000 \
